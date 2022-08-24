@@ -1,4 +1,4 @@
-package module8;
+package graphicRedactor;
 
 public class Ellipse implements Shape {
 

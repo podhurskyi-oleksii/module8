@@ -1,4 +1,4 @@
-package module8;
+package graphicRedactor;
 
 public interface nGon extends Shape {
 
