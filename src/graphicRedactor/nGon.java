@@ -1,8 +1,11 @@
 package graphicRedactor;
 
-public interface nGon extends Shape {
+public abstract class nGon extends Shape {
 
-    int getSides();
+    protected int countOfSides;
+    protected int countOfAngles;
 
-    int getCountOfAngles();
+    abstract int getCountOfSides();
+
+    abstract int getCountOfAngles();
 }

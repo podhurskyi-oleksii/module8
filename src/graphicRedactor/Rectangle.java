@@ -1,6 +1,6 @@
 package graphicRedactor;
 
-public class Rectangle implements nGon {
+public class Rectangle extends nGon {
 
     private double length;
     private double width;
@@ -22,22 +22,12 @@ public class Rectangle implements nGon {
     }
 
     @Override
-    public double getSize() {
-        return 28.0d;
-    }
-
-    @Override
-    public String getColor() {
-        return "Green";
-    }
-
-    @Override
     public String getShapeName() {
-        return "Rectangle";
+        return "Shape name is Rectangle";
     }
 
     @Override
-    public int getSides() {
+    public int getCountOfSides() {
         return 4;
     }
 
@@ -46,10 +36,4 @@ public class Rectangle implements nGon {
         return 4;
     }
 
-    @Override
-    public String toString() {
-        return "Shape name - " + getShapeName()
-                + ", color - " + getColor()
-                + ", size - " + getSize();
-    }
 }

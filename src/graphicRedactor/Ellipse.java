@@ -1,6 +1,6 @@
 package graphicRedactor;
 
-public class Ellipse implements Shape {
+public class Ellipse extends Shape {
 
     private double smallRadius;
     private double bigRadius;
@@ -22,25 +22,8 @@ public class Ellipse implements Shape {
     }
 
     @Override
-    public double getSize() {
-        return Shape.super.getSize();
-    }
-
-    @Override
-    public String getColor() {
-        return "Green";
-    }
-
-    @Override
     public String getShapeName() {
-        return "Ellipse";
-    }
-
-    @Override
-    public String toString() {
-        return "Shape name - " + getShapeName()
-                + ", color - " + getColor()
-                + ", size - " + getSize();
+        return "Shape name is Ellipse";
     }
 
 }

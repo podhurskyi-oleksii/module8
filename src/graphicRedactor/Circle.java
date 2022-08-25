@@ -1,6 +1,6 @@
 package graphicRedactor;
 
-public class Circle implements Shape {
+public class Circle extends Shape {
 
     private double radius;
 
@@ -13,24 +13,7 @@ public class Circle implements Shape {
     }
 
     @Override
-    public String getShapeName() {
-        return "Circle";
-    }
-
-    @Override
-    public double getSize() {
-        return 7.775d;
-    }
-
-    @Override
-    public String getColor() {
-        return Shape.super.getColor();
-    }
-
-    @Override
-    public String toString() {
-        return "Shape name - " + getShapeName()
-                + ", color - " + getColor()
-                + ", size - " + getSize();
+    String getShapeName() {
+        return "Shape name is Circle";
     }
 }

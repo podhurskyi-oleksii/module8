@@ -1,6 +1,6 @@
 package graphicRedactor;
 
-public class Rhombus implements nGon {
+public class Rhombus extends nGon {
 
     private double sideSize;
     private double smallDiagonal;
@@ -31,22 +31,12 @@ public class Rhombus implements nGon {
     }
 
     @Override
-    public double getSize() {
-        return 36.5d;
-    }
-
-    @Override
-    public String getColor() {
-        return "Yellow";
-    }
-
-    @Override
     public String getShapeName() {
-        return "Rhombus";
+        return "Shape name is Rhombus";
     }
 
     @Override
-    public int getSides() {
+    public int getCountOfSides() {
         return 4;
     }
 
@@ -55,10 +45,4 @@ public class Rhombus implements nGon {
         return 4;
     }
 
-    @Override
-    public String toString() {
-        return "Shape name - " + getShapeName()
-                + ", color - " + getColor()
-                + ", size - " + getSize();
-    }
 }

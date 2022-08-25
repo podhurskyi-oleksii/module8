@@ -1,14 +1,8 @@
 package graphicRedactor;
 
-public interface Shape {
+public abstract class Shape {
 
-    default double getSize() {
-        return 12.34d;
-    }
+    protected String shapeName;
 
-    default String getColor() {
-        return "White";
-    }
-
-    String getShapeName();
+    abstract String getShapeName();
 }

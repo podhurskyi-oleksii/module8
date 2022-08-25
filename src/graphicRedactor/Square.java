@@ -1,6 +1,6 @@
 package graphicRedactor;
 
-public class Square implements nGon {
+public class Square extends nGon {
 
     private static final int angle = 45;
     private double sideSize;
@@ -19,33 +19,16 @@ public class Square implements nGon {
 
     @Override
     public String getShapeName() {
-        return "Square";
+        return "Shape name is Square";
     }
 
     @Override
-    public double getSize() {
-        return 112.34d;
-    }
-
-    @Override
-    public String getColor() {
-        return "Blue";
-    }
-
-    @Override
-    public int getSides() {
+    public int getCountOfSides() {
         return 4;
     }
 
     @Override
     public int getCountOfAngles() {
         return 4;
-    }
-
-    @Override
-    public String toString() {
-        return "Shape name - " + getShapeName()
-                + ", color - " + getColor()
-                + ", size - " + getSize();
     }
 }

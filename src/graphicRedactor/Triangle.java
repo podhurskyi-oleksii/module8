@@ -1,6 +1,6 @@
 package graphicRedactor;
 
-public class Triangle implements nGon {
+public class Triangle extends nGon {
 
     private double[] angles;
 
@@ -16,22 +16,12 @@ public class Triangle implements nGon {
     }
 
     @Override
-    public double getSize() {
-        return 13;
-    }
-
-    @Override
-    public String getColor() {
-        return "Black";
-    }
-
-    @Override
     public String getShapeName() {
-        return "Triangle";
+        return "Shape name is Triangle";
     }
 
     @Override
-    public int getSides() {
+    public int getCountOfSides() {
         return 3;
     }
 
@@ -40,10 +30,4 @@ public class Triangle implements nGon {
         return 3;
     }
 
-    @Override
-    public String toString() {
-        return "Shape name - " + getShapeName()
-                + ", color - " + getColor()
-                + ", size - " + getSize();
-    }
 }
