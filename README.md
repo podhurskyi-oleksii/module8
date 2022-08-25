@@ -9,4 +9,4 @@
 
 # Class hierarchy
 
-![Class hierarchy](https://github.com/podhurskyi-oleksii/module8/blob/643e3718336d26bd86d7681e71bcc1d1e7644372/docs/hierarchy.jpg)
+![Class hierarchy](https://github.com/podhurskyi-oleksii/module8/blob/8ecfd9e93dceee0339af1090b57d6453b941de2e/docs/hierarchy.jpg)
